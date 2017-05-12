@@ -1,0 +1,47 @@
+
+.content-img-all{background-image:url(http://i0.wp.com/4kwallpapers.site/wp-content/uploads/2011/08/circuit-technology-hd-wallpaper.jpg?resize=2560,1600); background-size: cover; background-repeat: no-repeat; 
+height: 100%; background-attachment:fixed; background-position: center; display:flex; flex-direction:row; align-items:center; justify-content:center; overflow: hidden; }  
+
+.content-img-all h2{ font-family:sans-serif; text-shadow: 0px 1px 10px #272727; }
+    
+.image-all {
+    position: relative;
+    margin:5px;
+    width:200px;
+    background-color:#272727;
+    
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.mensage {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.image-all:hover .image {
+    opacity: 0.3;
+}
+
+.image-all:hover .mensage {
+    opacity: 1;
+}
+
+.price {
+    font-family: sans-serif;
+    background-color: #0469AD;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    box-shadow: 1px 1px 10px #272727;
+    }
