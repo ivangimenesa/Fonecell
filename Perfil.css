@@ -1,7 +1,7 @@
 
 .content-img-all{background-image:url(http://i0.wp.com/4kwallpapers.site/wp-content/uploads/2011/08/circuit-technology-hd-wallpaper.jpg?resize=2560,1600); background-repeat: no-repeat; 
 height: 100%; background-attachment:fixed; background-position: center; display:flex; 
-flex-direction:row; align-items:center; justify-content:center; overflow: hidden; transform: translateZ(-1px) scale(2); z-index: -1; }  
+flex-direction:row; align-items:center; justify-content:center; overflow: hidden; transform: translateZ(-1px) scale(1); z-index: -1; }  
 
 .content-img-all h2{ font-family:sans-serif; text-shadow: 0px 1px 10px #272727; }
     
